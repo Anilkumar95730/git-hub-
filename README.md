@@ -164,29 +164,29 @@ CONFLICTS generally araise when two people two people have changed the same line
 In this situation git cannot determine what is correct! 
 Lets understand in a simple way!
 
-    #cat>file1 : hai all
+      #cat>file1 : hai all
 
-    add & commit
+      add & commit
 
-    git checkout -b branch1
+      git checkout -b branch1
 
-   cat>file1 : 1234 
+      #cat>file1 : 1234 
 
-   add & commit
+      add & commit
 
-   git checkout master
+      git checkout master
 
-   cat>>file1 : abcd 
+      #cat>>file1 : abcd 
 
-   add & commit
+      add & commit
 
-   git merge branch1 : remove it
+      git merge branch1 : remove it
 
-   git diff file1
+      git diff file1
 
-   vim file1 git add
-
-   git commit -m "final commits"
+      vim file1 git add
+    
+      git commit -m "final commits"
 
 NOTE: Don't give file name on commit
 
