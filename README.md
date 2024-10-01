@@ -6,13 +6,15 @@ They can handle larger projects emciently. It is 3rd generation of vcs.
 it is written on c programming it came on the year 2005
 
 They are 4 types :
-                   1.WORKING DIRECTORY.
 
-                   2.STAGING AREA.
+
+                     1.WORKING DIRECTORY.
+
+                     2.STAGING AREA.
                    
-                   3.REPOSITORY -->#1.LOCAL REPO.
+                     3.REPOSITORY --> #1.LOCAL REPO.
                    
-                                   2.REMOTE REPO
+                                      2.REMOTE REPO
 
 # WORKING DIRECTORY:
   In this stage git is only aware of having files in the project.   It will not track these files until we commit those files.
