@@ -5,11 +5,13 @@ It is free and open-source.
 They can handle larger projects emciently. It is 3rd generation of vcs.
 it is written on c programming it came on the year 2005
 
-They are 4 types : 1.WORKING DIRECTORY.
+They are 4 types :
+                   1.WORKING DIRECTORY.
 
                    2.STAGING AREA.
                    
-                   3.REPOSITORY -->#1.LOCAL REPO
+                   3.REPOSITORY -->#1.LOCAL REPO.
+                   
                                    2.REMOTE REPO
 
 # WORKING DIRECTORY:
